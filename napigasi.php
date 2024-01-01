@@ -44,31 +44,31 @@
 							<div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
 							<table class='table'>
 								<tr>
-									<td><a class='dropdown-item' href='Admin'>Menu Admin</a></td>
+									<td><a class='dropdown-item' href='admin'>Menu Admin</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/akun.php'>Akun</a></td>
+									<td><a class='dropdown-item' href='admin/akun.php'>Akun</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/murid.php'>Murid</a></td>
+									<td><a class='dropdown-item' href='admin/murid.php'>Murid</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/guru.php'>Guru</a></td>
+									<td><a class='dropdown-item' href='admin/guru.php'>Guru</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/Nilai.php'>Nilai</a></td>
+									<td><a class='dropdown-item' href='admin/nilai.php'>Nilai</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/pesan.php'>Pesan</a></td>
+									<td><a class='dropdown-item' href='admin/pesan.php'>Pesan</a></td>
 								</tr>
 								
 								<tr>
-									<td><a class='dropdown-item' href='Admin/mata_pelajaran.php'>Mata Pelajaran</a></td>
+									<td><a class='dropdown-item' href='admin/mata_pelajaran.php'>Mata Pelajaran</a></td>
 								</tr>
 																
 								<tr>
@@ -93,7 +93,7 @@
 							<div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
 							<table class='table'>
 								<tr>
-									<td><a class='dropdown-item' href='Guru'>Input Nilai</a></td>
+									<td><a class='dropdown-item' href='guru'>Input Nilai</a></td>
 								</tr>
 								
 								<tr>
@@ -118,7 +118,7 @@
 							<div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
 							<table class='table'>
 								<tr>
-									<td><a class='dropdown-item' href='Murid'>Cek Nilai</a></td>
+									<td><a class='dropdown-item' href='murid'>Cek Nilai</a></td>
 								</tr>
 								
 								<tr>
