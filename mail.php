@@ -33,7 +33,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- contact -->
 <div class="container" style="margin-top: 70px;">
   <h2 class="text-center mb-4">Kesan & Pesan</h2>
-  <form action="Proses_Kirim.php" method="post" class="w-80 mx-auto" style="margin-top: 40px;">
+  <form action="proses_kirim.php" method="post" class="w-80 mx-auto" style="margin-top: 40px;">
     <div class="row g-3">
       <div class="col-md-6">
         <label for="name" class="form-label">Name*</label>
