@@ -17,7 +17,7 @@
 				$hasil = mysqli_query($koneksi, $tampil);
 				?>
 
-				<form class="form-group" action="Proses_Input_Mata_Pelajaran.php" method="post">
+				<form class="form-group" action="proses_input_mata_pelajaran.php" method="post">
 					<table class="table">
 						<tr>
 							<td> Kode Mata Pelajaran : </td>

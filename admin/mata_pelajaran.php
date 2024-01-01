@@ -37,8 +37,8 @@
 			<td> $data_guru[nama_guru] </td>
 			<td width='100'> $data[kelas] </td>
 			<td width='100'> $data[jurusan] </td>
-			<td width='100'><a href='mata_pelajaran_edit.php?kode=$data[kode_mata_pelajaran]'> Edit </a></td>
-			<td width='100'><a href='Hapus_Mata_Pelajaran.php?kode=$data[kode_mata_pelajaran]'> Hapus</a></td>
+			<td width='100'><a href='mata_pelajaran_edit.php?kode=$data[kode_mata_pelajaran]'>Edit </a></td>
+			<td width='100'><a href='hapus_mata_Pelajaran.php?kode=$data[kode_mata_pelajaran]'>Hapus </a></td>
 			</TR>";
 					}
 					?>

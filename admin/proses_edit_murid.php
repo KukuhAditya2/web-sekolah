@@ -13,11 +13,11 @@ $Kelas = $_POST['Kelas'];
 
 if ($_POST['NISN'] == "")
 {
-	$sqlstr="UPDATE `murid` SET `nama_murid` = '$Nama', `username` = '$Username',`kota` = '$Kota', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama', `jurusan` = '$Jurusan', `kelas` = '$Kelas' WHERE `murid`.`nisn` = '$NISN_Lama';";
+	$sqlstr="UPDATE `murid` SET `nama_murid` = '$Nama', `username` = '$Username',`kota` = '$Kota', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama', `jurusan` = '$Jurusan', `kelas` = '$Kelas' WHERE `murid`.`nisn` = '$NISN_Lama'";
 }
 else
 {
-	$sqlstr="UPDATE `murid` SET `nisn` = '$NISN',`nama_murid` = '$Nama', `username` = '$Username',`kota` = '$Kota', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama', `jurusan` = '$Jurusan', `kelas` = '$Kelas' WHERE `murid`.`nisn` = '$NISN_Lama';";
+	$sqlstr="UPDATE `murid` SET `nisn` = '$NISN',`nama_murid` = '$Nama', `username` = '$Username',`kota` = '$Kota', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama', `jurusan` = '$Jurusan', `kelas` = '$Kelas' WHERE `murid`.`nisn` = '$NISN_Lama'";
 }
 
 (mysqli_query($koneksi, $sqlstr));

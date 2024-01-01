@@ -12,7 +12,7 @@ include "../koneksi.php";
 	<?php
 	include "../koneksi.php";
 
-	$mapel = "SELECT * FROM `mata_pelajaran` WHERE nama_matapelajaran = '$_POST[mata_pelajaran]';";
+	$mapel = "SELECT * FROM `mata_pelajaran` WHERE nama_matapelajaran = '$_POST[mata_pelajaran]'";
 	$hasil_mapel = mysqli_query($koneksi, $mapel);
 	$data_mapel = mysqli_fetch_array($hasil_mapel)
 	?>

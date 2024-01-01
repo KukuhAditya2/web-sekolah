@@ -10,11 +10,11 @@ $Kelas = $_POST['Kelas'];
 
 if ($_POST['Kode_mapel'] == "")
 {
-	$sqlstr="UPDATE `mata_pelajaran` SET `nama_matapelajaran` = '$Nama_Mata_Pelajaran', `kelas` = '$Kelas', `jurusan` = '$Jurusan', `nip` = '$NIP' WHERE `kode_mata_pelajaran` = '$Kode_Lama' ;";
+	$sqlstr="UPDATE `mata_pelajaran` SET `nama_matapelajaran` = '$Nama_Mata_Pelajaran', `kelas` = '$Kelas', `jurusan` = '$Jurusan', `nip` = '$NIP' WHERE `kode_mata_pelajaran` = '$Kode_Lama'";
 }
 else
 {
-	$sqlstr="UPDATE `mata_pelajaran` SET kode_mata_pelajaran = '$Kode_Baru', `nama_matapelajaran` = '$Nama_Mata_Pelajaran', `kelas` = '$Kelas', `jurusan` = '$Jurusan', `nip` = '$NIP' WHERE `kode_mata_pelajaran` = '$Kode_Lama' ;";
+	$sqlstr="UPDATE `mata_pelajaran` SET kode_mata_pelajaran = '$Kode_Baru', `nama_matapelajaran` = '$Nama_Mata_Pelajaran', `kelas` = '$Kelas', `jurusan` = '$Jurusan', `nip` = '$NIP' WHERE `kode_mata_pelajaran` = '$Kode_Lama'";
 }
 
 (mysqli_query($koneksi, $sqlstr));

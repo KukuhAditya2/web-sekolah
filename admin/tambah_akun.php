@@ -9,7 +9,7 @@
 	<div class="container">
     <h3 class="w3l-title cl"> Akun Control </h3>
     <div class="container margin-atas">
-    <form class="form-group" action="Proses_Input_Akun.php" method="post">
+    <form class="form-group" action="proses_input_akun.php" method="post">
     <table class="table">
     <tr>
     	<td> Username : </td>

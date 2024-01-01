@@ -42,7 +42,7 @@ while ($data=mysqli_fetch_array($hasil))
 	echo "<td> $data[kelas] </td>";
 	echo "<td> $data[jurusan] </td>";
 	echo "<td width='80'><a href='murid_edit.php?kode=$data[nisn]'>Edit </a></td>";
-	echo "<td width='80'><a href='Hapus_Murid.php?kode=$data[nisn]'> Hapus</a></td>
+	echo "<td width='80'><a href='hapus_murid.php?kode=$data[nisn]'> Hapus</a></td>
 </TR>";
 }
 		

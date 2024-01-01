@@ -17,7 +17,7 @@ $hasil=mysqli_query($koneksi, $tampil);
 ?>
 
 	
-    <form class="form-group" action="Proses_Tambah_Murid.php" method="post" onSubmit="">
+    <form class="form-group" action="proses_tambah_murid.php" method="post" onSubmit="">
     <table class="table">
 	
 	<tr>

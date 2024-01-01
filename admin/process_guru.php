@@ -18,10 +18,10 @@ while ($data_murid = mysqli_fetch_array($hasil_murid)) {
 	$tampil_nilai = mysqli_query($koneksi, "SELECT * FROM `nilai` WHERE nama_murid = '$nama_murid' and jurusan = '$jurusan' and kelas = '$kelas' and nama_matapelajaran = '$nama_mpl'");
 
 	if (mysqli_num_rows($tampil_nilai) == 0) {
-		$sqlstr = ("INSERT INTO `nilai` (`nama_murid`, `kelas`, `jurusan`, `nama_matapelajaran`, `nilai_UTS`, `nilai_UAS`) VALUES ('$nama_murid', '$kelas', '$jurusan', '$nama_mpl', '$nilai_uts', '$nilai_uas');");
+		$sqlstr = ("INSERT INTO `nilai` (`nama_murid`, `kelas`, `jurusan`, `nama_matapelajaran`, `nilai_UTS`, `nilai_UAS`) VALUES ('$nama_murid', '$kelas', '$jurusan', '$nama_mpl', '$nilai_uts', '$nilai_uas')");
 		(mysqli_query($koneksi, $sqlstr));
 	} else {
-		$sqlstr = ("UPDATE `nilai` SET `nilai_UTS`= $nilai_uts,`nilai_UAS`= $nilai_uas WHERE nama_murid = '$nama_murid' and kelas = '$kelas' and jurusan = '$jurusan' and nama_matapelajaran = '$nama_mpl' ");
+		$sqlstr = ("UPDATE `nilai` SET `nilai_UTS`= $nilai_uts,`nilai_UAS`= $nilai_uas WHERE nama_murid = '$nama_murid' and kelas = '$kelas' and jurusan = '$jurusan' and nama_matapelajaran = '$nama_mpl'");
 		(mysqli_query($koneksi, $sqlstr));
 	}
 

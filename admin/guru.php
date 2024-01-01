@@ -59,7 +59,7 @@ while ($data=mysqli_fetch_array($hasil))
 			<td> $data[jenkel] </td>
 			<td> $Agama </td>
             <td width='100'><a href='guru_edit.php?kode=$data[nip]'> Edit </a></td>
-            <td width='100'><a href='Hapus_Guru.php?kode=$data[nip]'> Hapus </a></td>
+            <td width='100'><a href='hapus_guru.php?kode=$data[nip]'> Hapus </a></td>
         </tr>";
 }
 		

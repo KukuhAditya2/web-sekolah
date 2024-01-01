@@ -20,7 +20,7 @@ $tampil_akun="SELECT * FROM `akun` ORDER BY `username` ASC ";
 $hasil_akun=mysqli_query($koneksi, $tampil_akun);
 ?>
 	
-    <form class="form-group" action="Proses_Edit_Murid.php" method="post" onSubmit="">
+    <form class="form-group" action="proses_edit_murid.php" method="post" onSubmit="">
     <table class="table">
     <tr>
     	<td> NISN : </td>

@@ -24,7 +24,7 @@
 				$data_guru2 = mysqli_fetch_array($hasil_guru);
 				?>
 
-				<form class="form-group" action="Proses_Edit_Mata_Pelajaran.php" method="post">
+				<form class="form-group" action="proses_edit_mata_pelajaran.php" method="post">
 					<table class="table">
 						<tr>
 							<td> Kode Mata Pelajaran : </td>

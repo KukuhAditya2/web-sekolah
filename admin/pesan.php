@@ -38,7 +38,7 @@ include('../koneksi.php');
 								<td class='text-left'> $data[Email] </td>
 								<td> $data[No_HP] </td>
 								<td> $data[Isi] </td>		
-								<td width='100'> <a href='Hapus_Pesan.php?kode=$data[Isi]'> Hapus</a> </td>
+								<td width='100'> <a href='hapus_pesan.php?kode=$data[Isi]'> Hapus</a> </td>
 							</tr>";
 					}
 

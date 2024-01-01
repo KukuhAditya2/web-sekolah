@@ -45,7 +45,7 @@ while ($data=mysqli_fetch_array($hasil))
 	echo "<td class='text-left'>$data[username]</TD>";
 	echo "<td>$Level</TD>";
 	echo "<td width='100'><a href='akun_edit.php?kode=$data[username]'>Edit </a></td>";
-	echo "<td width='100'><a href='Hapus_Akun.php?kode=$data[username]'> Hapus</a></td>
+	echo "<td width='100'><a href='hapus_akun.php?kode=$data[username]'>Hapus </a></td>
 </TR>";
 }
 		

@@ -17,7 +17,7 @@ $tampil="SELECT * FROM `akun` ORDER BY `username` ASC ";
 $hasil=mysqli_query($koneksi, $tampil);
 ?>
 	
-    <form class="form-group" action="Proses_Tambah_Guru.php" method="post" >
+    <form class="form-group" action="proses_tambah_guru.php" method="post" >
     <table class="table">
 	<tr>
 		<td> NIP : </td>

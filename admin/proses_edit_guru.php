@@ -11,11 +11,11 @@ $Agama = $_POST['Agama'];
 
 if ($_POST['nip'] == "")
 {
-	$sqlstr="UPDATE `guru` SET `nama_guru` = '$Nama_Guru', username = '$Username',`no_hp` = '$No_Telepon', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama' WHERE `guru`.`nip` = '$NIP_Lama';";
+	$sqlstr="UPDATE `guru` SET `nama_guru` = '$Nama_Guru', username = '$Username',`no_hp` = '$No_Telepon', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama' WHERE `guru`.`nip` = '$NIP_Lama'";
 }
 else
 {
-	$sqlstr="UPDATE `guru` SET nip = '$NIP', `nama_guru` = '$Nama_Guru', username = '$Username',`no_hp` = '$No_Telepon', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama' WHERE `guru`.`nip` = '$NIP_Lama';";
+	$sqlstr="UPDATE `guru` SET nip = '$NIP', `nama_guru` = '$Nama_Guru', username = '$Username',`no_hp` = '$No_Telepon', `jenkel` = '$Jenis_Kelamin', `agama` = '$Agama' WHERE `guru`.`nip` = '$NIP_Lama'";
 }
 (mysqli_query($koneksi, $sqlstr));
 

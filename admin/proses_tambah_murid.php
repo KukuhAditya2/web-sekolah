@@ -11,7 +11,7 @@ $Agama = $_POST['Agama'];
 $Jurusan = $_POST['Jurusan'];
 $Kelas = $_POST['Kelas'];
 
-$sqlstr="INSERT INTO `murid` (`nisn`, `nama_murid`, `username`,`kota`, `jenkel`, `agama`, `jurusan`, `kelas`) VALUES ('$NISN', '$Nama', '$Username','$Kota', '$Jenis_Kelamin', '$Agama', '$Jurusan', '$Kelas');";
+$sqlstr="INSERT INTO `murid` (`nisn`, `nama_murid`, `username`,`kota`, `jenkel`, `agama`, `jurusan`, `kelas`) VALUES ('$NISN', '$Nama', '$Username','$Kota', '$Jenis_Kelamin', '$Agama', '$Jurusan', '$Kelas')";
 (mysqli_query($koneksi, $sqlstr));
 
 header('location:murid.php');

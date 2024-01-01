@@ -2,7 +2,7 @@
 include "koneksi.php";
 
 date_default_timezone_set('Asia/Jakarta');
-$input="INSERT INTO `pesan` (`Tanggal`, `Subject`, `Nama`, `Email`, `No_HP`, `Isi`) VALUES ('".date('d-m-Y')."', '$_POST[subject]', '$_POST[name]', '$_POST[email]', '$_POST[number]', '$_POST[Message]');";
+$input="INSERT INTO `pesan` (`Tanggal`, `Subject`, `Nama`, `Email`, `No_HP`, `Isi`) VALUES ('".date('d-m-Y')."', '$_POST[subject]', '$_POST[name]', '$_POST[email]', '$_POST[number]', '$_POST[message]')";
 //Apabila perintah SQL untuk menginput data benar
 
 
